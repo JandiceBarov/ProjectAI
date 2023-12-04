@@ -26,7 +26,7 @@ def process_image():
     elif predicted_class == 3:
         result = "Миопия"
     elif predicted_class == 4:
-        result = "Возраст"
+        result = "Возрастная макулодистрофия"
     result_label.config(text=result)
     
     if hasattr(process_image, 'photo'):
